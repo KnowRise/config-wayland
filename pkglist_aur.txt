@@ -1,0 +1,10 @@
+arc-gtk-theme
+bun-bin
+bun-bin-debug
+hoppscotch-bin
+microsoft-edge-stable-bin
+visual-studio-code-bin
+wlogout
+wlogout-debug
+yay
+yay-debug
