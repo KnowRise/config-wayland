@@ -26,3 +26,24 @@ function backup_dotfiles() {
     cd -
     echo "✅ Selesai!"
 }
+function start_docker_compose() {
+	echo "Menjalankan docker-compose 🔄"
+	docker-compose -f /home/knowrise/DATA/Programming/docker-service/docker-compose.yml up -d
+	echo "✅ Selesai!"
+}
+# Function biar laptop GAK SLEEP pas ditutup
+# Cara pakai: nosleep 1h (atau 30m, 2h, dll)
+function nosleep() {
+    # Ambil durasi dari input pertama, kalau kosong default 2 jam
+    local DURATION=${1:-2h} 
+    
+    echo "👁️  MODE BEGADANG AKTIF!"
+    echo "💻  Laptop GAK BAKAL SLEEP (Lid Switch Ignored) selama: $DURATION"
+    echo "❌  Tekan [Ctrl + C] untuk membatalkan manual."
+    echo "---------------------------------------------------"
+    
+    # Jalankan perintah penahan
+    systemd-inhibit --what=handle-lid-switch --who="KnowRise" --why="Manual Override" sleep "$DURATION"
+    
+    echo "😴  Waktu habis ($DURATION). Kembali ke mode normal."
+}

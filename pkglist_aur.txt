@@ -1,10 +1,15 @@
 arc-gtk-theme
+archlinux-java-run
+audiorelay
+audiorelay-debug
 bun-bin
 bun-bin-debug
+go-bin
 hoppscotch-bin
 microsoft-edge-stable-bin
 visual-studio-code-bin
 wlogout
 wlogout-debug
+wps-office-debug
 yay
 yay-debug

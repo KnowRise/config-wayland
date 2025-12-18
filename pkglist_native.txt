@@ -1,6 +1,8 @@
 alsa-utils
 amd-ucode
 arc-gtk-theme
+aria2
+audiorelay
 base
 base-devel
 blueman
@@ -9,7 +11,9 @@ bluez-utils
 brightnessctl
 btrfs-progs
 bun-bin
+cmake
 composer
+cpio
 discord
 docker
 docker-compose
@@ -17,9 +21,12 @@ dolphin
 dunst
 easyeffects
 efibootmgr
+fastfetch
 firefox
 git
+github-cli
 gnome-keyring
+go-bin
 grim
 grub
 gvfs
@@ -30,18 +37,23 @@ hyprland
 hyprlock
 intel-media-driver
 iwd
+kate
 kdenlive
 kitty
 less
+libreoffice-fresh
 libva-intel-driver
 linux
 linux-firmware
 lsp-plugins
+man-db
+meson
 microsoft-edge-stable-bin
 nano
 neovim
 network-manager-applet
 networkmanager
+nmap
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -49,6 +61,7 @@ noto-fonts-extra
 ntfs-3g
 nvm
 nwg-look
+obs-studio
 os-prober
 papirus-icon-theme
 pavucontrol
@@ -61,6 +74,7 @@ qt5-wayland
 qt5ct
 qt6-wayland
 qt6ct
+rofi
 sddm
 seahorse
 slurp
@@ -93,4 +107,5 @@ xorg-server
 xorg-xinit
 yay
 yay-debug
+zerotier-one
 zram-generator
